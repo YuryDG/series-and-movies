@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeriesMoviesList Should be loading 1`] = `
+<div>
+  <div
+    class="text-center"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`SeriesMoviesList should show data when everything is ok 1`] = `
+<div>
+  <div
+    id="infinite-scroll-container"
+  >
+    <div>
+      <div
+        class="item-container"
+      >
+        <div
+          class="image-container"
+        >
+          <img
+            alt="Wolf Creek"
+            height="250"
+            src="https://streamcoimg-a.akamaihd.net/000/128/61/12861-PosterArt-ec32a81986a45eac7e080112075ab466.jpg"
+          />
+        </div>
+        <div
+          class="content"
+        >
+          <p
+            class="info"
+          >
+            <span
+              class="title"
+            >
+              Wolf Creek
+            </span>
+            <span
+              class="type"
+            >
+              Serie
+               - 
+              2016
+            </span>
+          </p>
+          <p>
+            Wolf Creek Description
+          </p>
+        </div>
+      </div>
+      <div
+        class="item-container"
+      >
+        <div
+          class="image-container"
+        >
+          <img
+            alt="No Activity"
+            height="250"
+            src="https://streamcoimg-a.akamaihd.net/000/106/36/10636-PosterArt-9add943c5e62c2d89f6d31458d33508a.jpg"
+          />
+        </div>
+        <div
+          class="content"
+        >
+          <p
+            class="info"
+          >
+            <span
+              class="title"
+            >
+              No Activity
+            </span>
+            <span
+              class="type"
+            >
+              Serie
+               - 
+              2015
+            </span>
+          </p>
+          <p>
+            No Activity Description
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SeriesMoviesList should show error message when error 1`] = `
+<div>
+  <div
+    class="text-center"
+  >
+    Something went wrong.
+  </div>
+</div>
+`;
+
+exports[`SeriesMoviesList should show no data message 1`] = `
+<div>
+  <div
+    class="text-center"
+  >
+    <p>
+       No data were found
+    </p>
+  </div>
+</div>
+`;
