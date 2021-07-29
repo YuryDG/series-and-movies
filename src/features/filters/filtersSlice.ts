@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { FiltersState } from "../../types";
+import { FiltersState, ProgramType } from "../../types";
 
 const initialState: FiltersState = {
   year: 0,
@@ -24,7 +24,7 @@ export const filtersSlice = createSlice({
       state.searchTerm = payload;
       state.pagination.currentPage = 1;
     },
-    setProgramFilter: (state, { payload }: PayloadAction<string>) => {
+    setProgramFilter: (state, { payload }: PayloadAction<ProgramType>) => {
       state.type = payload;
       state.pagination.currentPage = 1;
     },
