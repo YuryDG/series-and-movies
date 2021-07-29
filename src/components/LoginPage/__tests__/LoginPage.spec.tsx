@@ -15,6 +15,6 @@ describe('LoginPage', () => {
         <LoginPage />
       </Router>,
     );
-    expect(history.location.pathname).toBe("/");
+    expect(history.location.pathname).toBe("/home");
   });
 })
