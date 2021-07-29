@@ -7,10 +7,10 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/login">
           <LoginPage />
         </Route>
-        <Route path="/home">
+        <Route path="/">
           <HomePage />
         </Route>
         <Route path="*">
