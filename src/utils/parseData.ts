@@ -14,5 +14,5 @@ export const convertToSerieOrMovie = (item: any): Movie | Serie => {
 
 // parsing data to a better format
 export const parseSeriesAndMoviesData = (data: SeriesAndMoviesData[]): (Movie | Serie)[] => {
-  return data.map(convertToSerieOrMovie)
+  return data.filter(item => item.releaseYear > 0).map(convertToSerieOrMovie)
 }
