@@ -3,7 +3,7 @@ import { APIResponse } from "../types";
 export const mockApiResponse: APIResponse = [
   {
     "title": "Wolf Creek",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "Wolf Creek Description",
     "programType": "series",
     "images": {
       "Poster Art": {
@@ -16,7 +16,7 @@ export const mockApiResponse: APIResponse = [
   },
   {
     "title": "No Activity",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "No Activity Description",
     "programType": "series",
     "images": {
       "Poster Art": {
@@ -29,7 +29,7 @@ export const mockApiResponse: APIResponse = [
   },
   {
     "title": "Billions",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "Billions Description",
     "programType": "series",
     "images": {
       "Poster Art": {
@@ -42,7 +42,7 @@ export const mockApiResponse: APIResponse = [
   },
   {
     "title": "Better Call Saul",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "description": "Better Call Saul Description",
     "programType": "series",
     "images": {
       "Poster Art": {

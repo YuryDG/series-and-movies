@@ -3,7 +3,7 @@ import { Movie, Serie } from "../types";
 export const mockSeriesMovieData: (Movie | Serie)[] = [
   {
     title: "Wolf Creek",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Wolf Creek Description",
     programType: "series",
     image: {
       url: "https://streamcoimg-a.akamaihd.net/000/128/61/12861-PosterArt-ec32a81986a45eac7e080112075ab466.jpg",
@@ -14,7 +14,7 @@ export const mockSeriesMovieData: (Movie | Serie)[] = [
   },
   {
     title: "No Activity",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "No Activity Description",
     programType: "series",
     image: {
       url: "https://streamcoimg-a.akamaihd.net/000/106/36/10636-PosterArt-9add943c5e62c2d89f6d31458d33508a.jpg",
@@ -25,7 +25,7 @@ export const mockSeriesMovieData: (Movie | Serie)[] = [
   },
   {
     title: "Billions",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Billions Description",
     programType: "series",
     image: {
       url: "https://streamcoimg-a.akamaihd.net/000/117/25/11725-PosterArt-deecf8dbd786dfa2d964413b0bf83726.jpg",
@@ -36,7 +36,7 @@ export const mockSeriesMovieData: (Movie | Serie)[] = [
   },
   {
     title: "Better Call Saul",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    description: "Better Call Saul Description",
     programType: "series",
     image: {
       url: "https://streamcoimg-a.akamaihd.net/000/175/7/1757-PosterArt-fc0e2a5b18d4a662717f3cbb1827871d.jpg",
