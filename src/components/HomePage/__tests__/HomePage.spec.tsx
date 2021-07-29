@@ -15,6 +15,6 @@ describe('HomePage', () => {
         <HomePage />
       </Router>,
     );
-    expect(history.location.pathname).toBe("/login");
+    expect(history.location.pathname).toBe("/");
   });
 })
