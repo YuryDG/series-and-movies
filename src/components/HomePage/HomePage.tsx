@@ -5,7 +5,7 @@ export const HomePage: React.FC = () => {
   const { isAuthenticated } = useAuth0();
 
   if (!isAuthenticated) {
-    return <Redirect to="/" />
+    return <Redirect to="/login" />
   } else {
     return (
       <section className="home-page">
