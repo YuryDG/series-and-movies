@@ -19,7 +19,7 @@ export const LoginPage: React.FC = () => {
             />
           </div>
           <div className="btn-container">
-            <p>The New Netflix</p>
+            <p>The New Stream Platform</p>
             <button className="login-btn" onClick={() => loginWithRedirect()}>
               LOGIN
             </button>

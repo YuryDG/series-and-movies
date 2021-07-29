@@ -1,0 +1,7 @@
+.home-page {
+  color: white
+}
+
+.home-page > header {
+  background-color: #222630;
+}

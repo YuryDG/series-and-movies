@@ -9,9 +9,9 @@
   justify-content: center;
   justify-items: center;
   width: 30%;
-  /* border: 1px solid ; */
   margin: 0 auto;
   text-align: center;
+  color: white;
 }
 
 .btn-container {

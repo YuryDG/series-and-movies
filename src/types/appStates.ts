@@ -6,7 +6,7 @@ export type SeriesAndMoviesState = {
   error?: string;
 }
 
-type Pagination = {
+export type Pagination = {
   itemsPerPage: number;
   currentPage: number;
 }
