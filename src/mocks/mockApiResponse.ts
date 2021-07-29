@@ -30,7 +30,7 @@ export const mockApiResponse: APIResponse = [
   {
     "title": "Billions",
     "description": "Billions Description",
-    "programType": "series",
+    "programType": "movie",
     "images": {
       "Poster Art": {
         "url": "https://streamcoimg-a.akamaihd.net/000/117/25/11725-PosterArt-deecf8dbd786dfa2d964413b0bf83726.jpg",
@@ -43,7 +43,7 @@ export const mockApiResponse: APIResponse = [
   {
     "title": "Better Call Saul",
     "description": "Better Call Saul Description",
-    "programType": "series",
+    "programType": "movie",
     "images": {
       "Poster Art": {
         "url": "https://streamcoimg-a.akamaihd.net/000/175/7/1757-PosterArt-fc0e2a5b18d4a662717f3cbb1827871d.jpg",
