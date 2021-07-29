@@ -3,9 +3,8 @@ import { Redirect } from 'react-router-dom';
 
 export const LoginPage: React.FC = () => {
   const { loginWithRedirect, isAuthenticated } = useAuth0();
-
   if (isAuthenticated) {
-    return <Redirect to="/" />
+    return <Redirect to="/home" />
   } else {
     return (
       <div className="login-page">
