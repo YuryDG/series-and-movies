@@ -8,7 +8,7 @@ export const initialState: FiltersState = {
   sortBy: '',
   pagination: {
     currentPage: 1,
-    itemsPerPage: process.env.ITEMS_PER_PAGE ? +process.env.ITEMS_PER_PAGE : 6
+    itemsPerPage: process.env.REACT_APP_ITEMS_PER_PAGE ? +process.env.REACT_APP_ITEMS_PER_PAGE : 6
   }
 };
 
