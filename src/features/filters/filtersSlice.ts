@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { FiltersState, ProgramType } from "../../types";
 
-const initialState: FiltersState = {
+export const initialState: FiltersState = {
   year: 0,
   type: '',
   searchTerm: '',
