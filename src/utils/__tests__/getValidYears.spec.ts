@@ -1,4 +1,4 @@
-import { getValidYears } from "../getValidsYears"
+import { getValidYears } from "../getValidYears";
 
 describe('getValidYears', () => {
   it('should remove duplicated elements', () => {

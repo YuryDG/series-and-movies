@@ -1,6 +1,6 @@
-import { createSelector } from "@reduxjs/toolkit"
-import { getValidYears } from "../utils/getValidsYears"
-import { selectSeriesAndMovies } from "./basics"
+import { createSelector } from "@reduxjs/toolkit";
+import { getValidYears } from "../utils/getValidYears";
+import { selectSeriesAndMovies } from "./basics";
 
 export const selectYears = createSelector(
   selectSeriesAndMovies,

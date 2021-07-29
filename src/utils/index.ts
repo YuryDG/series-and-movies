@@ -1,1 +1,2 @@
-export * from './parseData'
+export * from './parseData';
+export * from './getValidYears';
