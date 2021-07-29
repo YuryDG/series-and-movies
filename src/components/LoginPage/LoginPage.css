@@ -1,0 +1,32 @@
+.container {
+  display: flex;  
+  height: 100vh;
+}
+
+.login-page { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  width: 30%;
+  /* border: 1px solid ; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.login-btn {
+  border-radius: 4px;
+  padding: 10px 30px;
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.login-btn:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  cursor: pointer;
+}
