@@ -11,7 +11,7 @@ type Pagination = {
   currentPage: number;
 }
 
-export type ProgramType = '' | 'movies' | 'series';
+export type ProgramType = '' | 'movie' | 'series';
 
 export type FiltersState = {
   year: number;
