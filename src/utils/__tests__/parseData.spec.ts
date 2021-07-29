@@ -7,7 +7,7 @@ describe('utils/parseData', () => {
     it('should convert data properly', () => {
       const expectedResult = {
         title: "Wolf Creek",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        description: "Wolf Creek Description",
         programType: "series",
         image: {
           url: "https://streamcoimg-a.akamaihd.net/000/128/61/12861-PosterArt-ec32a81986a45eac7e080112075ab466.jpg",
