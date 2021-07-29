@@ -13,7 +13,7 @@ type Pagination = {
 
 export type FiltersState = {
   year: number;
-  type: string;
+  type: 'movie' | 'series';
   searchTerm: string;
   sortBy: SortFilter,
   pagination: Pagination
